@@ -1,0 +1,8 @@
+nohup: ignoring input
+GPUs: 0
+Models: resnet18 dinov3_vits16 siglip2 mambavision_t
+Data: data/Dental OPG XRAY Dataset/Dental OPG (Classification)
+Python: /home/ADS/cyang314/.conda/envs/dental-x-ray/bin/python
+Torch: 2.7.1+cu126, CUDA: 12.6, available: True
+Starting resnet18 on physical GPU 0
+Failed resnet18; see outputs_binary_multi_gpu/logs/resnet18.log

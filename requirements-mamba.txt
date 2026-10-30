@@ -1,0 +1,7 @@
+# Install only after PyTorch is installed. setup_env.sh uses
+# --no-build-isolation so mamba-ssm detects the existing Torch/CUDA versions
+# and selects the matching prebuilt wheel when available.
+packaging>=24.0
+ninja>=1.11
+mamba-ssm==2.3.2.post1
+
